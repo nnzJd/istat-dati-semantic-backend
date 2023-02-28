@@ -1,0 +1,29 @@
+fileignoreconfig:
+- filename: .github/workflows/gradlebuild.yml
+  checksum: 5fdea3b0feedc3a087793a111c46029162f66e22ebc0ac6ec665458e924f7c1c
+- filename: tools/dependency-check/dependency-check-known-issues.xml
+  checksum: 11899ad5232a1d1a8b155899f4c2360831a60d7fe0fdc5a35f1a3d0302cc190c
+- filename: config/checkstyle/checkstyle.xml
+  checksum: ab6320d7b1a31bfe40f3c68418e397cd6a140d3f13ad77e6962f6acb66a5499e
+- filename: scripts/super-linter.sh
+  checksum: 3bda2b0e3e1648fa58d60495ff1a38e268b75342bbdb30bcd5374b4abeb1edae
+- filename: src/test/resources/testdata/cv.ttl
+  checksum: dd30c21d66ac6d166bc585f0f5c5ca067d06ed7b4a81a9f86c9af235d5eda22f
+- filename: src/main/java/it/gov/innovazione/ndc/harvester/model/ControlledVocabularyModel.java
+  checksum: be6ce41271d41d5bd98ca5ae8b35ab09a0701d25e02fc92abe348674b62c7614
+- filename: src/main/java/it/gov/innovazione/ndc/harvester/model/ControlledVocabularyModel.java
+  checksum: 2415833c3e97e20aeb25cd4b07f1ebb5d46550d04ee28f068f6a49ca655c3bbc
+- filename: src/main/java/it/gov/innovazione/ndc/harvester/model/SemanticAssetMetadata.java
+  checksum: a55ea1884845d520c72d97775fc8ec88d4a586700ff2d38efd0adcb9ac46db1e
+- filename: src/main/resources/elasticsearch-settings.json
+  checksum: 28664f692ef237326fb88c7106b59e3cbb1e636f4c1ebae4377a021ec4bb910e
+- filename: src/main/resources/db/schema-mysql.sql
+  checksum: 3ffdf5c20a55e7bdaa0b0377aa543658045a9f41a3585e2474338caabcc3dda5
+- filename: docker-compose.yaml
+  checksum: c6f016418e48dff18f3f73cc5b1eddba8420eb001372154ab2e3e7dd1e798b34
+- filename: src/main/resources/application-dev.properties
+  checksum: 9607b425ab481f81869e0c172b5ff25546a4217645fd5a5f2087f5b8ffc6af58
+allowed_patterns:
+- keyClasses
+- hasKeyClass
+- keyConcept
