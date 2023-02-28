@@ -97,7 +97,7 @@ jobs:
           echo "##[set-output name=imageName;]${IMAGE}:${TAG}"
       - uses: convictional/trigger-workflow-and-wait@v1.3.0
         with:
-          owner: teamdigitale
+          owner: istat
           repo: dati-semantic-kubernetes
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           workflow_file_name: update-config.yaml
